@@ -204,8 +204,7 @@
         <scope>test</scope>
       </dependency>
     </dependencies>
-  </dependencyManagement>
-         
+  </dependencyManagement>         
 <distributionManagement>
          <repository>
                   <id>RepoR</id>
