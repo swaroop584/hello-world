@@ -209,11 +209,13 @@
 <distributionManagement>
   <repository>
     <id>RepoR</id>
+    <name>RepoR</name>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://ec2-3-93-22-5.compute-1.amazonaws.com:8090/nexus/content/repositories/RepoR/</url>
   </repository>
   <snapshotRepository>
     <id>RepoS</id>
+     <name>RepoS</name>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://ec2-3-93-22-5.compute-1.amazonaws.com:8090/nexus/content/repositories/RepoS/</url>
   </snapshotRepository>
