@@ -205,7 +205,20 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-
+         
+<distributionManagement>
+  <repository>
+    <id>RepoR</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://ec2-3-93-22-5.compute-1.amazonaws.com:8090/nexus/content/repositories/RepoR/</url>
+  </repository>
+  <snapshotRepository>
+    <id>RepoS</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://ec2-3-93-22-5.compute-1.amazonaws.com:8090/nexus/content/repositories/RepoS/</url>
+  </snapshotRepository>
+</distributionManagement>
+         
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
     <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
